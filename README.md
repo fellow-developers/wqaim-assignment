@@ -1,6 +1,6 @@
 # Wqaim-assignment
 
-## Promblem Statement
+## Problem Statement
 
 ![image](https://user-images.githubusercontent.com/63374020/213878009-060824cb-1bc2-4576-848d-81a4968fad6e.png)
 
