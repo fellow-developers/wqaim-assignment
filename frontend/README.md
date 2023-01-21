@@ -9,6 +9,12 @@
         1. Blog Post
 
 
+- Required Components
+1. Header - Used for all pages
+2. Blog Post - Used for Home page
+3. New Blog Post - Used for Blog Publish page
+4. Blog Detail - Used for Blog Post page
+
 
 # Getting Started with Create React App
 
