@@ -1,27 +1,17 @@
 import './App.css';
-import { Header } from './components/header/Header';
-import { Post } from './components/post/Post';
-
-// dummy post data
-const getPostsData = (n) => {
-  // creating fake post data
-  const posts = [];
-  for (let i = 1; i <= n; i++) {
-    posts.push({ id: i, title: `Post ${i}` })
-  }
-
-  return posts;
-}
+import { Home } from './pages/home/Home'
+import { PostDetail } from './pages/postDetail/PostDetail'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <div className="post-container">
-        {getPostsData(6).map((post) => (
-          <Post key={post.id} id={post.id} title={post.title} />
-        ))}
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/detail/:id" element={<PostDetail />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

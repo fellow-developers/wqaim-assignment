@@ -1,0 +1,16 @@
+.post-detail {
+    margin-top: 50px;
+    display: grid;
+    gap: 50px;
+    padding: 16px;
+}
+
+.post-detail .title {
+    text-align: center;
+}
+
+.post-detail .body {
+    justify-self: center;
+    font-size: 28px;
+    max-width: 800px;
+}
